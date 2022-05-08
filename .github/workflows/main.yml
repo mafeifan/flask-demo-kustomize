@@ -46,5 +46,7 @@ jobs:
         uses: actions-x/commit@v6
         if: ${{ github.event.inputs.image }}
         with:
+          repository: https://github.com/mafeifan/flask-demo-kustomize.git
           token: ${{ secrets.MY_SECRET_TOKEN }}
+          force: true
           message: "kustomize set image to ${{ github.event.inputs.image }}:${{ github.event.inputs.sha-tag }}"
