@@ -7,4 +7,4 @@ resources:
 - secret-sealed.yaml
 images:
 - name: finleyma/flask-demo
-  newTag: f9619f70d282985c54d86693fbb0c2fa325a5d58
+  newTag: b55970ee44dda8cc38fa367369a2226b8b84de8a
